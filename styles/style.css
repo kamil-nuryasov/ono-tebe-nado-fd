@@ -1,1 +1,109 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+
+.content-section_theme_bright {
+  color: #000;
+  background-color: #fff;
+}
+
+.header_menu,
+.header__links-list,
+.footer__menu,
+.footer__menu-list {
+  display: flex;
+}
+
+.header__links-list {
+  flex-flow: row nowrap;
+  gap: 10px;
+  list-style: circle inside;
+}
+
+.links-list {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.header__link {
+  text-underline-offset: 4px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link_active,
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.header__logo-image {
+  display: block;
+  width: 138px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.35;
+  text-underline-offset: 4px;
+}
+
+.header__address {
+  justify-self: end;
+  max-width: 240px;
+}
+
+.background {
+  min-height: 757px;
+  background-color: plum;
+}
+
+.lots {
+  min-height: 723px;
+}
+
+.about {
+  min-height: 600px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  justify-items: stretch;
+  border-top: #000 solid 1px;
+  padding: 0 50px;
+}
+
+.footer__address {
+  max-width: 265px;
+}
+
+.footer__menu-list {
+  width: 100%;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__social-list {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  gap: 48px;
+  list-style-type: none;
+}
+.footer__social-icon {
+  display: block;
+  width: 48px;
+}
