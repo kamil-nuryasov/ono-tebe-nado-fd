@@ -118,7 +118,7 @@
 }
 
 .aligned-text_right {
- text-align: right;
+  text-align: right;
 }
 
 .no-letter-spacing {
@@ -153,6 +153,7 @@
   text-transform: uppercase;
   background: transparent;
 }
+
 /* Секция лоты */
 .lots {
   margin-bottom: 120px;
@@ -165,6 +166,7 @@
   line-height: 1.08em;
   text-transform: uppercase;
 }
+
 /* Блок списка корточек */
 .lots__card-list {
   display: flex;
@@ -296,7 +298,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: stretch;
   align-items: start;
-  padding: 0 50px 82px; 
+  padding: 0 50px 82px;
 }
 
 .footer__address {
